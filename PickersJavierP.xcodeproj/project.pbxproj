@@ -14,6 +14,10 @@
 		4BF284FD203B726F00F9FD9D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4BF284FB203B726F00F9FD9D /* LaunchScreen.storyboard */; };
 		4BF28508203B726F00F9FD9D /* PickersJavierPTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4BF28507203B726F00F9FD9D /* PickersJavierPTests.swift */; };
 		4BF28513203B726F00F9FD9D /* PickersJavierPUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4BF28512203B726F00F9FD9D /* PickersJavierPUITests.swift */; };
+		4BF28521203B73FF00F9FD9D /* DatePickerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4BF28520203B73FF00F9FD9D /* DatePickerViewController.swift */; };
+		4BF28525203B747500F9FD9D /* DoubleComponentPickerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4BF28524203B747500F9FD9D /* DoubleComponentPickerViewController.swift */; };
+		4BF28527203B749400F9FD9D /* DependentComponentPickerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4BF28526203B749400F9FD9D /* DependentComponentPickerViewController.swift */; };
+		4BF28529203B74B300F9FD9D /* SingleComponentViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4BF28528203B74B300F9FD9D /* SingleComponentViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +51,10 @@
 		4BF2850E203B726F00F9FD9D /* PickersJavierPUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PickersJavierPUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		4BF28512203B726F00F9FD9D /* PickersJavierPUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PickersJavierPUITests.swift; sourceTree = "<group>"; };
 		4BF28514203B726F00F9FD9D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4BF28520203B73FF00F9FD9D /* DatePickerViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DatePickerViewController.swift; sourceTree = "<group>"; };
+		4BF28524203B747500F9FD9D /* DoubleComponentPickerViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DoubleComponentPickerViewController.swift; sourceTree = "<group>"; };
+		4BF28526203B749400F9FD9D /* DependentComponentPickerViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DependentComponentPickerViewController.swift; sourceTree = "<group>"; };
+		4BF28528203B74B300F9FD9D /* SingleComponentViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SingleComponentViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -99,6 +107,10 @@
 			children = (
 				4BF284F2203B726F00F9FD9D /* AppDelegate.swift */,
 				4BF284F4203B726F00F9FD9D /* ViewController.swift */,
+				4BF28520203B73FF00F9FD9D /* DatePickerViewController.swift */,
+				4BF28528203B74B300F9FD9D /* SingleComponentViewController.swift */,
+				4BF28524203B747500F9FD9D /* DoubleComponentPickerViewController.swift */,
+				4BF28526203B749400F9FD9D /* DependentComponentPickerViewController.swift */,
 				4BF284F6203B726F00F9FD9D /* Main.storyboard */,
 				4BF284F9203B726F00F9FD9D /* Assets.xcassets */,
 				4BF284FB203B726F00F9FD9D /* LaunchScreen.storyboard */,
@@ -260,7 +272,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				4BF284F5203B726F00F9FD9D /* ViewController.swift in Sources */,
+				4BF28527203B749400F9FD9D /* DependentComponentPickerViewController.swift in Sources */,
+				4BF28525203B747500F9FD9D /* DoubleComponentPickerViewController.swift in Sources */,
 				4BF284F3203B726F00F9FD9D /* AppDelegate.swift in Sources */,
+				4BF28529203B74B300F9FD9D /* SingleComponentViewController.swift in Sources */,
+				4BF28521203B73FF00F9FD9D /* DatePickerViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
